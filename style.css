@@ -22,7 +22,7 @@ body {
 header {
     text-align: center;
     padding: 40px;
-    background: #a0aebc;
+    background: #003366;
     /* Deep Blue */
     color: #fff;
     border-bottom: 5px solid #66ccff;
@@ -37,7 +37,7 @@ header h1 {
 
 header p {
     margin-top: 10px;
-    color: #aebdd3;
+    color: #e0e0e0;
     /* Light gray text for contrast */
     font-size: 18px;
 }
