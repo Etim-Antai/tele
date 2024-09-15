@@ -1,0 +1,191 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #111;
+    /* Dark text for contrast */
+    background-color: #f4f4f4;
+    /* Light gray for general background */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 40px;
+    background: #003366;
+    /* Deep Blue */
+    color: #fff;
+    border-bottom: 5px solid #66ccff;
+    /* Sky Blue border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    margin-top: 10px;
+    color: #e0e0e0;
+    /* Light gray text for contrast */
+    font-size: 18px;
+}
+
+/* Profile Picture Styling */
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Navigation Styling */
+nav {
+    background: #003366;
+    /* Deep Blue */
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #66ccff;
+    /* Sky Blue */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    /* White on hover */
+    text-decoration: underline;
+}
+
+/* Section Color Styling */
+section:nth-child(odd) {
+    background-color: #e6f7ff;
+    /* Light Sky Blue */
+    padding: 30px 20px;
+}
+
+section:nth-child(even) {
+    background-color: #f4f4f4;
+    /* Light gray */
+    padding: 30px 20px;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    color: #003366;
+    /* Deep Blue titles */
+    font-size: 24px;
+}
+
+section p,
+section ul {
+    font-size: 18px;
+    color: #333;
+    /* Medium gray text */
+}
+
+section ul {
+    margin-left: 20px;
+    list-style: square;
+}
+
+/* Contact Form Styling */
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #003366;
+    /* Deep Blue labels */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #003366;
+    /* Deep Blue */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #002244;
+    /* Darker Deep Blue */
+}
+
+/* Footer Styling */
+footer {
+    background: #003366;
+    /* Deep Blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #66ccff;
+    /* Sky Blue border */
+}
+
+footer .social-links a {
+    color: #66ccff;
+    /* Sky Blue */
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer .social-links a:hover {
+    color: #fff;
+    /* White on hover */
+}
